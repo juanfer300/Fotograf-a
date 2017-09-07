@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Responsive</title>
+
+	<meta charset="UTF-8" />
+	<meta name="author" content="juan fernando ramírez" />
+	<meta name="description" content="Hoja de vida" />
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link rel="stylesheet" href="resources/css/estilos.css" type="text/css" />
+</head>
+
+<body>
+	<div id="contenido" class="slide-up">
+
+
+		<div id="encabezado">
+			<h1>Comenzando con la fotografía</h1>
+			<div id="menu">
+				<ul>
+					<li><a class="active" href="index.html">Inicio</a></li>
+					<li><a href="paisajes.html">Paisajes</a></li>
+					<li><a href="retratos.html">Retratos</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="imagen-central">
+			<picture>
+				<source media="(min-width:768px)" srcset="resources/img/landscape3.jpg">
+				<source media="(min-width:480px)" srcset="resources/img/landscape2.jpeg">
+				<img src="resources/img/landscape.jpg" />
+			</picture>
+		</div>
+		<div id="imagen-secundaria">
+			<section class="columns2-1">
+				<a href="paisajes.html">
+					<figure>
+						<img class="rotate" src="resources/img/landscape-secondary.jpg" />
+						<figcaption>Paisajes</figcaption>
+					</figure>
+				</a>
+			</section>
+			<section class="columns2-2">
+				<a href="retratos.html">
+					<figure href="paisajes.html">
+						<img class="translate" src="resources/img/retratos.jpg" href="" />
+						<figcaption>Retratos</figcaption>
+					</figure>
+				</a>
+			</section>
+		</div>
+
+		<footer>
+			<section class="columns4-1">
+				<h2>Contacto</h2>
+				<label>juanfernando80@gmail.com</label><br><br>
+				<label>Cra 23 # 34-36 Bogotá</label><br><br>
+				<label>2345356</label><br><br>
+			</section>
+			<section class="columns4-2">
+				<h2>Términos</h2>
+				<label>Esta página web esta sugeta a derechos de autor, se prohíbe su distribución libre al público</label>
+			</section>
+			<section class="columns4-3">
+				<h2>Redes sociales</h2>
+				<label>Facebook</label><br><br>
+				<label>Instagram</label><br><br>
+				<label>Twitter</label><br><br>
+			</section>
+			<section class="columns4-4">
+				<h2>Derechos</h2>
+				<label>Juan Fernando Ramírez</label><br><br>
+				<label>@ Copyright - 2017</label><br><br>
+			</section>
+		</footer>
+
+	</div>
+
+
+</body>
+
+</html>
